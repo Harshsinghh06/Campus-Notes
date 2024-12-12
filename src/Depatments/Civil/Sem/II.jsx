@@ -49,7 +49,7 @@ const II = () => {
     ]
     return (
         <div  className='h-screen w-full mt-8'>
-            <h1 className='mx-2 my-5 text-3xl text-ellipsis font-serif text-purple-900 rounded-xl w-full py-3 px-10 bg-amber-400'>Empowering Minds, One Semester at a Time. <br /> Navigate Your Academic Journey – Select Your Semester!</h1>
+            <h1 className='mx-2 my-5 text-3xl text-ellipsis font-serif text-purple-900 rounded-xl w-full py-3 px-10 bg-amber-400'>Please choose your desired subject</h1>
             <div className='py-3 shadow bg-red-900 rounded-xl bg-transparent border'>
             <Container>
                 <nav className='flex justify-between'>

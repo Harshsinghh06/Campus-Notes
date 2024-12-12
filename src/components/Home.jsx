@@ -68,8 +68,9 @@ const Home = () => {
   return (
     <div className='h-screen w-full mt-8'>
         
-        <div className='py-3 shadow bg-red-900 rounded-xl bg-transparent border'>
+        <div className='py-3 shadow rounded-xl bg-transparent border'>
         <Container>
+        <h1 className='mx-2 my-5 text-3xl text-ellipsis font-serif text-purple-900 rounded-xl w-full py-3 px-10 bg-amber-400'>Choose your path – pick your department!</h1>
             <nav className='flex justify-between'>
             <ul className='flex ml-auto flex-wrap h-full overflow-auto'>
                     {navItems.map((item)=>
