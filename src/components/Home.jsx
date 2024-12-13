@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+
 import Container from './container/Container'
 
 import { useNavigate } from 'react-router-dom'
@@ -67,6 +67,7 @@ const Home = () => {
     ]
   return (
     <div className='h-screen w-full mt-8'>
+        <h1 className='my-6 bg-red-400 text-blue-900 rounded-lg p-2 font-serif font-semibold text-5xl'>Welcome to Campus Notes – your one-stop destination for seamless academic preparation!</h1>
         
         <div className='py-3 shadow rounded-xl bg-transparent border'>
         <Container>

@@ -4,6 +4,7 @@ import { createRoot } from 'react-dom/client'
 import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider } from 'react-router-dom'
 import Layout from './Layout/Layout'
 import Home from './components/Home'
+import AboutUs from './components/About Us/AboutUs'
 import Chem from './Depatments/Chem/Chem'
 import Mech from './Depatments/Mech/Mech'
 import Civil from './Depatments/Civil/Civil'
@@ -39,6 +40,10 @@ function App() {
         {
           path: '',
           element: <Home />,
+        },
+        {
+          path: 'about-us',
+          element: <AboutUs />,
         },
         {
           path: 'Chem',
