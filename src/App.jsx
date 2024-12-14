@@ -19,6 +19,7 @@ import IstCir from './Depatments/Ist&IIndSem/IstCir'
 import IIndCir from './Depatments/Ist&IIndSem/IIndCir'
 import IstNonCir from './Depatments/Ist&IIndSem/IstNonCir'
 import IInsNonCir from './Depatments/Ist&IIndSem/IInsNonCir'
+import DeptLayOut from './Layout/DeptLayOut'
 
 
 
@@ -54,7 +55,7 @@ function App() {
           path: 'Prod',
           element: <Prod />,
           children: [
-            { path: 'I', element: <IstNonCir /> },
+            { path: ':sem', element: <IstNonCir /> },
             { path: 'II', element: <IInsNonCir /> },
           ],
          
@@ -76,10 +77,16 @@ function App() {
         },
         {
           path: 'Cse',
-          element: <Cse />,
+          element: <DeptLayOut />,
           children: [
+            {path : '', element : <Cse/>},
             { path: 'I', element: <IstCir /> },
             { path: 'II', element: <IIndCir /> },
+            // { path: 'III', element: <IIISem /> },
+            // { path: 'IV', element: <IVSem /> },
+            // { path: 'V', element: <VSem /> },
+            // ...So More till 8th sem
+
           ],
         },
         {
@@ -94,6 +101,10 @@ function App() {
           path: 'Ice',
           element: <Ice />,
         },
+        {
+          path : '*',
+          element : <div className='flex justify-center items-center rounded-md h-96'> <p className='text-5xl h-min w-full p-5 text-red-900 bg-orange-200 '>Error 404! Page Not Found </p> </div>
+        }
       ],
     },
   ]);

@@ -10,37 +10,37 @@ const IstCir = () => {
         {
             name : 'Energy and Environmental Engineering',
             nev : 'Eee',
-            slug : "/Eee",
+            slug : "Eee",
             
         },
         {
             name: "Linear Algebra and Calculus",
             nev : 'Lac',
-            slug: "/Lac",
+            slug: "Lac",
             
         },
         {
             name: "Physics",
             nev : 'Phy',
-            slug: "/Phy",
+            slug: "Phy",
             
         },
         {
             name: "Introduction to Computer Programming",
             nev : 'Icp',
-            slug: "/Icp",
+            slug: "Icp",
             
         },
         {
             name: "Basics of Mechanical Engineering",
             nev : 'Bmm',
-            slug: "/Bmm",
+            slug: "Bmm",
             
         },
         {
             name: "Engineering Practice",
             nev : 'Ep',
-            slug: "/Ep",
+            slug: "Ep",
             
         },
         {

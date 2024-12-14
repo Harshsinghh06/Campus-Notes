@@ -146,7 +146,7 @@ const AboutUs = () => {
         <div className="m-5 p-2 bg-sky-200 shadow-sm w-full lg:w-5/12 flex flex-col justify-center">
           <h1 className="text-3xl lg:text-4xl font-serif font-bold leading-9 text-gray-800 pb-4">About Us</h1>
           <p className="text-justify font-normal text-base leading-6 text-gray-600">
-          At Campus Notes, we believe that knowledge should be accessible to everyone, anytime, anywhere. Our platform is more than just a collection of notes and previous year question papers—it’s a community-driven initiative to transform the way students approach learning.
+          At Academic Vault, we believe that knowledge should be accessible to everyone, anytime, anywhere. Our platform is more than just a collection of notes and previous year question papers—it’s a community-driven initiative to transform the way students approach learning.
 
           <br />
 

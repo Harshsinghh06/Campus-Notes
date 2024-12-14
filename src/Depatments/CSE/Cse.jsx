@@ -1,6 +1,6 @@
 import React from 'react'
 import { Container } from '../../components'
-
+import { NavLink, Outlet } from 'react-router-dom'
 import { useNavigate } from 'react-router-dom'
 
 const Cse = () => {
@@ -9,49 +9,49 @@ const Cse = () => {
         {
             name : '1st Sem',
             nev : 'I',
-            slug : "/I",
+            slug : "I",
             
         },
         {
             name: "2nd Sem",
             nev : 'II',
-            slug: "/II",
+            slug: "II",
             
         },
         {
             name: "3rd Sem",
             nev : 'III',
-            slug: "/III",
+            slug: "III",
             
         },
         {
             name: "4th Sem",
             nev : 'IV',
-            slug: "/IV",
+            slug: "IV",
             
         },
         {
             name: "5th Sem",
             nev : 'V',
-            slug: "/V",
+            slug: "V",
             
         },
         {
             name: "6th Sem",
             nev : 'VI',
-            slug: "/VI",
+            slug: "VI",
             
         },
         {
             name: "7th Sem",
             nev : 'VII',
-            slug: "/VII",
+            slug: "VII",
             
         },
         {
             name: "8th Sem",
             nev : 'VIII',
-            slug: "/VIII",
+            slug: "VIII",
             
         },
 
@@ -83,9 +83,9 @@ const Cse = () => {
 
             </nav>
         </Container>
-       
-    </div>
         
+       
+    </div>        
     </div>
   )
 }

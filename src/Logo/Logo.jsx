@@ -6,8 +6,8 @@ function Logo({width = '50px'}) {
         <img
         style={{ width }} 
         className='rounded-lg shadow-md hover:shadow-lg duration-200'
-        src="src/Logo.webp" alt="" />
-        <h1 className=' font-bold text-5xl text-amber-600'>Campus Notes</h1>
+        src="src/Logo/Logo1.png" alt="Academic Vault" />
+        <h1 className=' font-bold text-5xl text-amber-600'>Academic Vault</h1>
     </div>
   )
 }
