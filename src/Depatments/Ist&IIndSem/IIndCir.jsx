@@ -10,37 +10,37 @@ const IIndCir = () => {
         {
             name : 'English',
             nev : 'Eng',
-            slug : "/Eng",
+            slug : "Eng",
             
         },
         {
             name: "Complex Analysis and Differential Equations ",
             nev : 'Cadf',
-            slug: "/Cadf",
+            slug: "Cadf",
             
         },
         {
             name: "Chemistry",
             nev : 'Chem',
-            slug: "/Chem",
+            slug: "Chem",
             
         },
         {
             name: "Branch Specific Course",
             nev : 'Bsc',
-            slug: "/Bsc",
+            slug: "Bsc",
             
         },
         {
             name: "Program Core",
             nev : 'Pc',
-            slug: "/Pc",
+            slug: "Pc",
             
         },
         {
             name: "Engineering Graphics",
             nev : 'Eg',
-            slug: "/Eg",
+            slug: "Eg",
             
         },
        
@@ -53,7 +53,7 @@ const IIndCir = () => {
             <Container>
                 <nav className='flex justify-between'>
                 <ul className='flex ml-auto flex-wrap w-full h-full overflow-auto'>
-                        {navNonCir1.map((item)=>
+                        {navCir2.map((item)=>
                             
                              (
                                 <li key ={item.name} className='w-1/2 h-1/3 p-2 '>

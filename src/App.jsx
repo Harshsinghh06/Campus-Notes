@@ -85,7 +85,7 @@ function App() {
             // { path: 'III', element: <IIISem /> },
             // { path: 'IV', element: <IVSem /> },
             // { path: 'V', element: <VSem /> },
-            // ...So More till 8th sem
+         
 
           ],
         },
@@ -103,7 +103,7 @@ function App() {
         },
         {
           path : '*',
-          element : <div className='flex justify-center items-center rounded-md h-96'> <p className='text-5xl h-min w-full p-5 text-red-900 bg-orange-200 '>Error 404! Page Not Found </p> </div>
+          element : <div className='flex justify-center items-center rounded-md h-96'> <p className='rounded-sm text-5xl h-min w-full p-5 text-red-900 bg-orange-200 '>Error 404! Page Not Found </p> </div>
         }
       ],
     },

@@ -10,38 +10,38 @@ const IInsNonCir = () => {
         {
             name : 'Energy and Environmental Engineering',
             nev : 'Eee',
-            slug : "/Eee",
+            slug : "Eee",
             
         },
         {
             name: "Complex Analysis and Differential Equations ",
             nev : 'Cadf',
-            slug: "/Cadf",
+            slug: "Cadf",
             
         },
         {
             name: "Physics",
             nev : 'Phy',
-            slug: "/Phy",
+            slug: "Phy",
             
         },
         {
             name: "Introduction to Computer Programming",
             nev : 'Icp',
-            slug: "/Icp",
+            slug: "Icp",
             
         },
         {
             name: "Programme Core – I",
             nev : 'Pc',
-            slug: "/Pc",
+            slug: "Pc",
             
         },
       
         {
             name: "Basics of Civil Engineering",
             nev : 'Bce',
-            slug: "/Bce",
+            slug: "Bce",
             
         },
        
